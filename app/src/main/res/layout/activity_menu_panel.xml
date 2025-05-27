@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".menu_panel">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="235dp"
+        android:layout_height="91dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/swissotel_logo" />
+
+    <Button
+        android:id="@+id/raporlar_btn"
+        android:layout_width="130dp"
+        android:layout_height="64dp"
+        android:backgroundTint="@color/normal_red"
+        android:text="Raporlar"
+        app:layout_constraintEnd_toStartOf="@+id/yonetim_btn"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        android:layout_marginTop="100dp" />
+
+    <Button
+        android:id="@+id/yonetim_btn"
+        android:layout_width="130dp"
+        android:layout_height="64dp"
+        android:backgroundTint="@color/normal_red"
+        android:text="Yönetim"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/raporlar_btn"
+        app:layout_constraintTop_toTopOf="@+id/raporlar_btn" />
+
+    <Button
+        android:id="@+id/geri_btn"
+        android:layout_width="277dp"
+        android:layout_height="49dp"
+        android:backgroundTint="@color/normal_red"
+        android:text="Geri"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/raporlar_btn"
+        android:layout_marginTop="50dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
