@@ -13,6 +13,9 @@
         android:theme="@style/Theme.HasDeneme"
         tools:targetApi="31">
         <activity
+            android:name=".admin_panel"
+            android:exported="false" />
+        <activity
             android:name=".misafirodasitemizlikkontrol"
             android:exported="false" />
         <activity

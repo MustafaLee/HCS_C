@@ -1,6 +1,6 @@
 package com.example.hasdeneme
 
-import Person
+
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
@@ -31,14 +31,6 @@ class MainActivity : AppCompatActivity() {
         }
 
 
-        val recyclerView = findViewById<RecyclerView>(R.id.recyclerView)
-        recyclerView.layoutManager = LinearLayoutManager(this)
-
-        val personList = listOf(
-            Person("Misafir Odası Temizlik Formu", "Form 101", R.drawable.ic_person, misafirodasitemizlikkontrol::class.java),
-         //   Person("Ayşe Kaya", "Oda 205", R.drawable.ic_person, Form2Activity::class.java),
-          //  Person("Mehmet Demir", "Oda 310", R.drawable.ic_person, Form3Activity::class.java)
-        )
 
 
 
